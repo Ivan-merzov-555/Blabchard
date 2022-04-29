@@ -259,13 +259,14 @@
                         }
                         
                         .header-logo {
-                            margin-right: auto;
+                            flex-shrink: 0;
                             transition: opacity .2s ease-in-out;
                         }
                         
                         .header__nav-wrap {
                             display: flex;
                             justify-content: space-between;
+                            margin-left: auto;
                         }
                         
                         .header-logo.active {
@@ -3356,6 +3357,7 @@
                             .top-nav.active {
                                 opacity: 1;
                                 transform: translateX(0);
+                                overflow-y: auto;
                             }
                             .top-nav__list {
                                 display: flex;

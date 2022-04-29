@@ -54,6 +54,7 @@ body {
     line-height: 32px;
     color: #333;
     background: #fff;
+    min-width: 320px;
     word-wrap: break-word;
 }
 
